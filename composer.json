@@ -1,0 +1,21 @@
+{
+    "name": "alysonrodrigo/pacote-pratica",
+    "description": "Pacote referente ao pratica de pacote PHP com composer",
+    "type": "library",
+    "version": "1.0",
+    "require": {
+        "php": ">=7.0",
+        "monolog/monolog": "^1.23"
+    },
+    "autoload": {
+      "psr-4":{"AlysonRodrigo\\Cookiesoft\\":"src/AlysonRodrigo/Cookiesoft"}
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alyson Rodrigo",
+            "email": "g.dasilva@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
